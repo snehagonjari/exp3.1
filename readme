@@ -1,1 +1,17 @@
-docker pull jenkins/jenkins:lts
+git add .
+git commit -m "Add"
+git push origin main
+git push -u origin main
+
+git remote remove origin  # Optional: Remove old origin if exists
+git remote add origin https://github.com/YOUR_USERNAME/flask-ci-cd.git
+git branch -M main
+git push -u origin main
+
+
+exp4 
+git init
+git add .
+git commit -m "Initial commit with Flask app"
+git remote add origin https://github.com/your-username/flask-app.git
+git push -u origin main
